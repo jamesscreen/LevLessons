@@ -37,6 +37,8 @@ body{
 	line-height: 90px;
 	text-align: right;
 	color: #ffc000;
+	margin-bottom: 200px;
+	padding: 0 140px 0 0;
 }
 .header__disc{
 	font-size: 48px;
@@ -54,10 +56,12 @@ body{
 .box__img{
 	width: 100%;
 	height: auto;
+	margin-top: -240px;
 }
 .sub__border-form{
 	border: 5px solid rgba(255, 255, 255, 0.6);
 	box-shadow: 1px 1px 3px #222;
+	margin-top: -160px;
 }
 .sub__form{
 	background: #ffcc00;
