@@ -23,7 +23,7 @@ body{
 }
 
 /* Заголовки на сайте */
-.header__name, .header__disc, .sub__zag{
+.header__name, .header__disc, .sub__zag, .timer__header{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -128,6 +128,13 @@ body{
 	50%{-webkit-transform: scale(1.1); transform: scale(1.1);}
 	100%{-webkit-transform: scale(1); transform: scale(1);}
 } */
+
+
+/* Таймер */
+.timer__header{
+	font-size: 22px;
+	margin: 40px 0;
+}
 
 /* Общие стили */
 .right{
