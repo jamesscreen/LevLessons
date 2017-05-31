@@ -51,6 +51,7 @@ body{
 	line-height: 44px;
 	padding: 28px;
 	color: #111;
+	margin: 0 0 80px 0;
 }
 
 /* Стили шапки */
@@ -146,6 +147,11 @@ body{
 	font-size: 20px;
 	margin: 0 0 20px;
 	font-weight: 400;
+}
+
+/* Блоки контента */
+.content{
+	padding: 0 0 80px 0;
 }
 
 /* Общие стили */
