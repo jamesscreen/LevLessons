@@ -79,6 +79,7 @@ body{
 	font-weight: 300;
 	width: 100%;
 	padding: 15px 0;
+	transition: .5s;
 }
 .sub__mail{
 	font-size: 20px;
@@ -86,6 +87,11 @@ body{
 	line-height: 20px;
 	text-indent: 20px;
 	border: 1px solid #c7b900;
+
+}
+.sub__mail:focus{
+	border: 1px solid transparent;
+	box-shadow: 0 0 7px #886600;
 }
 .sub__submit{
 	font-size: 30px;
