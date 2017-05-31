@@ -5,3 +5,8 @@ body{
   font: 1em/1.6em sans-serif;
   color: #353535;
 }
+
+.mid{ /* Задаем ширину контента сайта */
+	max-width: 1000px;
+	margin: 0 auto;
+}
