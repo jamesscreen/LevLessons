@@ -166,6 +166,12 @@ body{
 .left{
 	float: left;
 }
+.orange{
+	color: #ff8a00;
+}
+.yellow{
+	color: #ffc000;
+}
 .clearfix:before, .clearfix:after{ /* Очистка стилей */
 	content: " ";
 	display: table;
