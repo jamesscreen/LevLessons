@@ -10,3 +10,14 @@ body{
 	max-width: 1000px;
 	margin: 0 auto;
 }
+
+/* Фоны */
+.blackfon{
+	background: url("images/blackfon.png");
+}
+.crownfon{
+	background: url("images/crownfon.png");
+}
+.grayfon{
+	background: url("images/grayfon.png");
+}
