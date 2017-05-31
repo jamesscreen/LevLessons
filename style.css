@@ -47,11 +47,16 @@ body{
 	padding: 1px 0;
 }
 
-/* Общие стили */
-.right, .left{
-	width: 100%;
+.box, .sub{
+	width: 50%;
 }
 
+.box__img{
+	width: 100%;
+	height: auto;
+}
+
+/* Общие стили */
 .right{
 	float: right;
 }
