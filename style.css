@@ -23,10 +23,12 @@ body{
 }
 
 /* Заголовки на сайте */
-.header__name, .header__disc{
+.header__name, .header__disc, .sub__zag{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
+}
+.header__name, .header__disc{
 	text-shadow: 1px 1px 3px #222;
 	margin: 40px 0;
 }
@@ -46,34 +48,34 @@ body{
 .header__top{
 	padding: 1px 0;
 }
-
 .box, .sub{
 	width: 50%;
 }
-
 .box__img{
 	width: 100%;
 	height: auto;
 }
-
 .sub__border-form{
 	border: 5px solid rgba(255, 255, 255, 0.6);
 	box-shadow: 1px 1px 3px #222;
 }
-
 .sub__form{
 	background: #ffcc00;
+	padding: 40px;
+}
+.sub__zag{
+	font-size: 30px;
+	color: #111;
+	margin-bottom: 20px;
 }
 
 /* Общие стили */
 .right{
 	float: right;
 }
-
 .left{
 	float: left;
 }
-
 .clearfix:before, .clearfix:after{ /* Очистка стилей */
 	content: " ";
 	display: table;
