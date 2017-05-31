@@ -24,7 +24,23 @@ body{
 
 /* Заголовки на сайте */
 .header__name, .header__disc{
-	color: #fff;
 	text-align: center;
 	text-transform: uppercase;
+	font-weight: 300;
+	text-shadow: 1px 1px 3px #222;
+	margin: 40px 0;
+}
+.header__name{
+	font-size: 90px;
+	line-height: 90px;
+	text-align: right;
+	color: #ffc000;
+}
+.header__disc{
+	font-size: 48px;
+	line-height: 48px;
+	color: #fff;
+}
+.header__top{
+	padding: 1px 0;
 }
