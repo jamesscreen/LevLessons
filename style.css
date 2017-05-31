@@ -75,24 +75,23 @@ body{
 	font-weight: 300;
 	margin: 20px 0;
 }
+.sub__mail, .sub__submit{
+	font-weight: 300;
+	width: 100%;
+	padding: 15px 0;
+}
 .sub__mail{
 	font-size: 20px;
-	font-weight: 300;
 	outline: 0;
 	line-height: 20px;
-	padding: 15px 0;
-	width: 100%;
 	text-indent: 20px;
 	border: 1px solid #c7b900;
 }
 .sub__submit{
 	font-size: 30px;
 	color: #fff;
-	font-weight: 300;
 	text-transform: uppercase;
-	width: 100%;
 	line-height: 30px;
-	padding: 15px 0;
 	text-align: center;
 	border: none;
 	background: #b50000;
