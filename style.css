@@ -68,6 +68,16 @@ body{
 	color: #111;
 	margin-bottom: 20px;
 }
+.sub__mail{
+	font-size: 20px;
+	font-weight: 300;
+	outline: 0;
+	line-height: 20px;
+	padding: 15px 0;
+	width: 100%;
+	text-indent: 20px;
+	border: 1px solid #c7b900;
+}
 
 /* Общие стили */
 .right{
