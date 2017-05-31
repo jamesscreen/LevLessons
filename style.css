@@ -2,7 +2,7 @@
 /*Copyright www.Master-CSS.com*/.my-logo{position:fixed;bottom:0;left:0;margin:0;padding:0;}.my-logo__pic{border:0;vertical-align:middle;width:50px;height:50px;}
 
 body{
-	font: 1em/1.6em sans-serif;
+	font: 1em/1.6em "Roboto", Arial, Tahoma, sans-serif;
 	color: #353535;
 }
 
@@ -20,4 +20,11 @@ body{
 }
 .grayfon{
 	background: url("images/grayfon.png");
+}
+
+/* Заголовки на сайте */
+.header__name, .header__disc{
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
 }
