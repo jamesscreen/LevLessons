@@ -23,7 +23,7 @@ body{
 }
 
 /* Заголовки на сайте */
-.header__name, .header__disc, .sub__zag, .timer__header{
+.header__name, .header__disc, .sub__zag, .timer__header, .content__header{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -44,6 +44,13 @@ body{
 	font-size: 48px;
 	line-height: 48px;
 	color: #fff;
+}
+.content__header{
+	font-size: 44px;
+	background: #ffc000;
+	line-height: 44px;
+	padding: 28px;
+	color: #111;
 }
 
 /* Стили шапки */
