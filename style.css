@@ -131,9 +131,14 @@ body{
 
 
 /* Таймер */
-.timer__header{
-	font-size: 22px;
+.timer{
+	text-align: center;
 	margin: 40px 0;
+}
+.timer__header{
+	font-size: 20px;
+	margin: 0 0 20px;
+	font-weight: 400;
 }
 
 /* Общие стили */
