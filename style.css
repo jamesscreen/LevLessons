@@ -216,7 +216,7 @@ ____________$$   */
 
 /* Блоки анонсов */
 .anons{
-	width: 48%;
+	width: 46%;
 	margin-bottom: 80px;
 }
 .anons:nth-child(even){
@@ -278,10 +278,11 @@ ____________$$   */
 	line-height: 30px;
 }
 .anons__p{
-	font-size: 18px;
+	font-size: 17px;
 }
 .anons__img{
 	position: absolute;
+	width: 100%;
 	top: 220px;
 	-webkit-transition: .5s; transition: .5s;
 }
