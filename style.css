@@ -221,12 +221,18 @@ ____________$$   */
 .anons__fon{
 	background: #fff;
 	border: 1px solid #bbb;
+	height: 228px;
+	overflow: hidden;
 }
 .anons__number{
 	width: 20%;
 }
 .anons__content{
 	width: 80%;
+	position: relative;
+}
+.anons__text{
+	padding: 40px 40px 0 40px;
 }
 .anons__zag{
 	text-align: left;
@@ -237,6 +243,10 @@ ____________$$   */
 }
 .anons__p{
 	font-style: 18px;
+}
+.anons__img{
+	position: absolute;
+	top: 220px;
 }
 .anons__pic{
 	vertical-align: middle;
