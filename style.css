@@ -217,6 +217,13 @@ ____________$$   */
 /* Блоки анонсов */
 .anons{
 	width: 48%;
+	margin-bottom: 80px;
+}
+.anons:nth-child(even){
+	float: right;
+}
+.anons:nth-child(odd){
+	float: left;
 }
 .anons__fon{
 	background: #fff;
