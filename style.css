@@ -22,11 +22,19 @@ body{
 	background: url("images/grayfon.png");
 }
 
-/* Заголовки на сайте */
-.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak, .anons__zag, .anons__num{
+/* Общие классы */
+.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak, .anons__zag, .anons__num, .sell__zag{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
+}
+.header__name, .header__disc, .sell__zag{
+	text-shadow: 1px 1px 3px #222;
+	margin: 40px 0;
+}
+.box__img, .sell__img{
+	width: 100%;
+	height: auto;
 }
 
 /* Стили шапки 
@@ -56,10 +64,6 @@ ____________________________________________________*/
 .header__top{
 	padding: 1px 0;
 }
-.header__name, .header__disc{
-	text-shadow: 1px 1px 3px #222;
-	margin: 40px 0;
-}
 .header__name{
 	font-size: 90px;
 	line-height: 90px;
@@ -75,11 +79,10 @@ ____________________________________________________*/
 .box, .sub{
 	width: 50%;
 }
-.box__img{
-	width: 100%;
-	height: auto;
+.box__img,{
 	margin-top: -240px;
 }
+
 .sub__border-form{
 	border: 5px solid rgba(255, 255, 255, 0.6);
 	box-shadow: 1px 1px 3px #222;
@@ -301,6 +304,17 @@ ____________$$   */
 /* Забрать систему */
 .sell{
 	padding: 40px 0;
+}
+.sell__box{
+	width: 40%;
+}
+.sell__text{
+	width: 60%;
+}
+.sell__zag{
+	font-weight: 400;
+	font-size: 30px;
+	color: #fff;
 }
 
 /* Общие стили */
