@@ -23,7 +23,7 @@ body{
 }
 
 /* Заголовки на сайте */
-.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak, .anons__zag{
+.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak, .anons__zag, .anons__num{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -227,6 +227,22 @@ ____________$$   */
 .anons__number{
 	width: 20%;
 }
+.anons__num{
+	width: 60px;
+	height: 60px;
+	background: #ffc000;
+	border: 2px solid #fff;
+	border-radius: 50%;
+	box-shadow: 1px 1px 3px #bbb;
+	margin: 82px auto 0;
+	font-size: 44px;
+	line-height: 60px;
+}
+.anons__nbor{
+	border-right: 1px	solid #bbb;
+	height: 227px;
+	padding-top: 1px;
+}
 .anons__content{
 	width: 80%;
 	position: relative;
@@ -242,7 +258,7 @@ ____________$$   */
 	line-height: 30px;
 }
 .anons__p{
-	font-style: 18px;
+	font-size: 18px;
 }
 .anons__img{
 	position: absolute;
