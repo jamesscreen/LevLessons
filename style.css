@@ -23,7 +23,7 @@ body{
 }
 
 /* Заголовки на сайте */
-.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak{
+.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak, .anons__zag{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -227,6 +227,21 @@ ____________$$   */
 }
 .anons__content{
 	width: 80%;
+}
+.anons__zag{
+	text-align: left;
+	font-size: 30px;
+	font-weight: 400;
+	margin-bottom: 20px;
+	line-height: 30px;
+}
+.anons__p{
+	font-style: 18px;
+}
+.anons__pic{
+	vertical-align: middle;
+	width: 100%;
+	height: auto;
 }
 
 /* Общие стили */
