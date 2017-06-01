@@ -237,7 +237,16 @@ ____________$$   */
 	margin: 82px auto 0;
 	font-size: 44px;
 	line-height: 60px;
+	-webkit-transition: .5s; transition: .5s;
 }
+
+.anons:hover .anons__num{
+	-webkit-transform: rotate(360deg);
+	-ms-transform: rotate(360deg);
+	transform: rotate(360deg);
+	box-shadow: 0 0 3px #bbb;
+}
+
 .anons__nbor{
 	border-right: 1px	solid #bbb;
 	height: 227px;
@@ -263,7 +272,14 @@ ____________$$   */
 .anons__img{
 	position: absolute;
 	top: 220px;
+	-webkit-transition: .5s; transition: .5s;
 }
+
+.anons:hover .anons__img{
+	top: 0;
+	opacity: .9; /* Прозрачность */
+}
+
 .anons__pic{
 	vertical-align: middle;
 	width: 100%;
