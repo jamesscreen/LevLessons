@@ -298,6 +298,11 @@ ____________$$   */
 	height: auto;
 }
 
+/* Забрать систему */
+.sell{
+	padding: 40px 0;
+}
+
 /* Общие стили */
 .right{
 	float: right;
