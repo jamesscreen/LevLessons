@@ -214,6 +214,21 @@ ____________$$   */
 	font-weight: 400;
 }
 
+/* Блоки анонсов */
+.anons{
+	width: 48%;
+}
+.anons__fon{
+	background: #fff;
+	border: 1px solid #bbb;
+}
+.anons__number{
+	width: 20%;
+}
+.anons__content{
+	width: 80%;
+}
+
 /* Общие стили */
 .right{
 	float: right;
