@@ -220,9 +220,9 @@ ____________$$   */
 }
 .anons__fon{
 	background: #fff;
-	border: 1px solid #bbb;
-	height: 228px;
+	height: 230px;
 	overflow: hidden;
+	box-shadow: 1px 1px 3px #ccc;
 }
 .anons__number{
 	width: 20%;
@@ -248,16 +248,20 @@ ____________$$   */
 }
 
 .anons__nbor{
-	border-right: 1px	solid #bbb;
+	border: 1px solid #bbb;
+	border-right: none;
 	height: 227px;
 	padding-top: 1px;
 }
 .anons__content{
 	width: 80%;
 	position: relative;
+	height: 230px;
 }
 .anons__text{
 	padding: 40px 40px 0 40px;
+	height: 188px;
+	border: 1px solid #bbb;
 }
 .anons__zag{
 	text-align: left;
