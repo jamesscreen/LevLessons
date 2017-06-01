@@ -23,7 +23,7 @@ body{
 }
 
 /* Общие классы */
-.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak, .anons__zag, .anons__num, .sell__zag{
+.header__name, .header__disc, .sub__zag, .timer__header, .content__header, .content__zak, .anons__zag, .anons__num, .sell__zag, .sell__button{
 	text-align: center;
 	text-transform: uppercase;
 	font-weight: 300;
@@ -315,6 +315,22 @@ ____________$$   */
 	font-weight: 400;
 	font-size: 30px;
 	color: #fff;
+}
+.sell__a{
+	text-align: center;
+}
+.sell__button{
+	text-decoration: none;
+	background: #d7d7d7;
+	padding: 10px 20px;
+	font-size: 30px;
+	line-height: 30px;
+	box-shadow: 2px 2px 5px #222;
+	border-radius: 3px;
+	transition: .5s;
+}
+.sell__button:hover{
+	background: #ffc000;
 }
 
 /* Общие стили */
