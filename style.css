@@ -417,6 +417,20 @@ ____________$$   */
 	background: url("images/flag.png") no-repeat center 40px;
 }
 
+/* Меню на сайте */
+.menu{
+	background: rgba(0, 0, 0, .9);
+}
+.menu__ul{
+	list-style: none;
+	margin: none;
+	padding: none;
+}
+.menu__a{
+	text-decoration: none;
+	color: #fff;
+}
+
 /* Общие стили */
 .right{
 	float: right;
