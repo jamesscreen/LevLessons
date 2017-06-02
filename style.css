@@ -314,7 +314,7 @@ ____________$$   */
 
 /* Забрать систему */
 .sell{
-	padding: 40px 0;
+	padding: 40px 0 0;
 }
 .sell__box{
 	width: 40%;
@@ -329,6 +329,7 @@ ____________$$   */
 }
 .sell__a{
 	text-align: center;
+	margin: 60px 0;
 }
 .sell__button{
 	text-decoration: none;
