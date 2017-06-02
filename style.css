@@ -261,9 +261,26 @@ ____________$$   */
 }
 .anons__ico{
 	height: 100%;
+	background: no-repeat center;
+	background-size: 70%;
 }
 .ico1{
-	background: url("images/rocket.svg") no-repeat center;
+	background-image: url("images/rocket.svg");
+}
+.ico2{
+	background-image: url("images/glove.svg");
+}
+.ico3{
+	background-image: url("images/lightning.svg");
+}
+.ico4{
+	background-image: url("images/bookmark.svg");
+}
+.ico5{
+	background-image: url("images/sword.svg");
+}
+.ico6{
+	background-image: url("images/diamond.svg");
 }
 .anons:hover .anons__num{
 	-webkit-transform: rotate(360deg);
