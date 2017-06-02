@@ -90,14 +90,20 @@ ____________________________________________________*/
 .box, .sub{
 	width: 50%;
 }
-.box__img,{
+.box__img{
 	margin-top: -240px;
 }
-
+.box__img_footer{
+	margin-top: 0;
+	width: auto;
+}
 .sub__border-form{
 	border: 5px solid rgba(255, 255, 255, 0.6);
 	box-shadow: 1px 1px 3px #222;
 	margin-top: -160px;
+}
+.sub__border-form_footer{
+	margin-top: 0;
 }
 .sub__form{
 	background: #ffcc00;
