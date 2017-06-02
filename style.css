@@ -259,7 +259,12 @@ ____________$$   */
 	line-height: 60px;
 	-webkit-transition: .5s; transition: .5s;
 }
-
+.anons__ico{
+	height: 100%;
+}
+.ico1{
+	background: url("images/rocket.svg") no-repeat center;
+}
 .anons:hover .anons__num{
 	-webkit-transform: rotate(360deg);
 	-ms-transform: rotate(360deg);
