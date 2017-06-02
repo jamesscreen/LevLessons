@@ -243,7 +243,6 @@ ____________$$   */
 	background: #fff;
 	height: 230px;
 	overflow: hidden;
-	box-shadow: 1px 1px 3px #ccc;
 }
 .anons__number{
 	width: 20%;
@@ -286,10 +285,10 @@ ____________$$   */
 }
 .anons__zag{
 	text-align: left;
-	font-size: 30px;
+	font-size: 24px;
 	font-weight: 400;
 	margin-bottom: 20px;
-	line-height: 30px;
+	line-height: 24px;
 }
 .anons__p{
 	font-size: 17px;
@@ -366,6 +365,12 @@ ____________$$   */
 }
 .shadow-dark{
 	text-shadow: 1px 1px 2px #222;
+}
+.boxshadow-light{
+	box-shadow: 1px 1px 3px #eee;
+}
+.boxshadow-mid{
+	box-shadow: 1px 1px 3px #ccc;
 }
 .clearfix:before, .clearfix:after{ /* Очистка стилей */
 	content: " ";
