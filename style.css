@@ -382,12 +382,25 @@ ____________$$   */
 	border-radius: 50%;
 	transition: .3s;
 	cursor: pointer;
+	text-align: center;
+	display: inline-block;
+	margin: 0 10px;
+	padding: 0;
 }
-
 .circle:hover{
 	border: 3px solid #777;
 	box-shadow: 0 0 0 4px #999;
 	background: #fdffc4;
+}
+.circle:first-child{
+	margin-left: 0;
+}
+.circle:last-child{
+	margin-right: 0;
+}
+.step1{
+	padding: 70px 30px 0 30px;
+	background: url("images/mail.png") no-repeat center 10px;
 }
 
 /* Общие стили */
@@ -396,6 +409,9 @@ ____________$$   */
 }
 .left{
 	float: left;
+}
+.tac{
+	text-align: center;
 }
 .orange{
 	color: #ff8a00;
