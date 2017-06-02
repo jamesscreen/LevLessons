@@ -232,6 +232,7 @@ ____________$$   */
 .anons{
 	width: 46%;
 	margin-bottom: 80px;
+	cursor: pointer;
 }
 .anons:nth-child(even){
 	float: right;
@@ -370,6 +371,23 @@ ____________$$   */
 }
 .sell__button:hover{
 	background: #ffc000;
+}
+
+/* Круги */
+.circle{
+	width: 178px;
+	height: 178px;
+	background: #fff;
+	border: 3px double #bbb;
+	border-radius: 50%;
+	transition: .3s;
+	cursor: pointer;
+}
+
+.circle:hover{
+	border: 3px solid #777;
+	box-shadow: 0 0 0 4px #999;
+	background: #fdffc4;
 }
 
 /* Общие стили */
