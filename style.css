@@ -262,7 +262,8 @@ ____________$$   */
 .anons__ico{
 	height: 100%;
 	background: no-repeat center;
-	background-size: 70%;
+	background-size: 65%;
+	transition: .5s;
 }
 .ico1{
 	background-image: url("images/rocket.svg");
@@ -282,6 +283,11 @@ ____________$$   */
 .ico6{
 	background-image: url("images/diamond.svg");
 }
+.anons:hover .anons__ico{
+	background-size: 75%;
+}
+
+
 .anons:hover .anons__num{
 	-webkit-transform: rotate(360deg);
 	-ms-transform: rotate(360deg);
