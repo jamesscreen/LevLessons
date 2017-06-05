@@ -483,11 +483,31 @@ ____________$$   */
 		margin: 0 auto 80px;
 	}
 	.box__img{
-		margin-top: -200px;
+		margin-top: -150px;
 	}
 	.box__img_footer{
 		width: 95%;
 		margin-top: 0;
+	}
+}
+@media screen and (max-width: 850px){
+	.sell__box{
+		display: none;
+	}
+	.sell__text{
+		width: 100%;
+	}
+	.box.left, .sub.right{
+		float: none;
+		width: 70%;
+		margin: 0 auto;
+	}
+	.box__img{
+		margin-top: 0;
+	}
+	.header__name{
+		text-align: center;
+		padding: 0;
 	}
 }
 
