@@ -463,6 +463,27 @@ ____________$$   */
 	text-shadow: 0px 0px 7px #fff;
 }
 
+/* Адаптиный дизайн */
+@media screen and (max-width: 1024px){
+	.mid{
+		margin: 0 20px;
+	}
+}
+@media screen and (max-width: 972px){
+	.anons{
+		width: 47%;
+	}
+}
+@media screen and (max-width: 954px){
+	.anons{
+		width: 70%;
+	}
+	.anons:nth-child(even), .anons:nth-child(odd){
+		float: none;
+		margin: 0 auto 80px;
+	}
+}
+
 /* Общие стили */
 .right{
 	float: right;
