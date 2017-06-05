@@ -441,7 +441,6 @@ ____________$$   */
 	padding: 0 0 0 50px;
 	text-align: center;
 	background: url("images/favicon/apple-touch-icon.png") no-repeat left center;
-	
 }
 .menu__li{
 	display: inline-block;
@@ -458,6 +457,10 @@ ____________$$   */
 }
 .menu__a:hover{
 	color: #fff;
+}
+.active .menu__a{
+	color: #fff;
+	text-shadow: 0px 0px 7px #fff;
 }
 
 /* Общие стили */
