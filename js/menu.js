@@ -6,7 +6,7 @@
 
 // плавное появление меню при скролле
 $(document).ready(function(){ 
-	var $menu = $("#mmenu");		 
+	var $menu = $(".menu");		 
 	$(window).scroll(function(){
 		if ( $(this).scrollTop() > 300 && $menu.hasClass("default") ){
 			$menu.fadeOut('fast',function(){
@@ -29,7 +29,7 @@ $(document).ready(function(){
 // автоматическое выделение пунктов меню
 $(window).load(function(){
 var lastId,
-    topMenu = $("#top-menu"),
+    topMenu = $(".menu__ul"),
     topMenuHeight = topMenu.outerHeight()+15,
     // All list items
     menuItems = topMenu.find("a"),
