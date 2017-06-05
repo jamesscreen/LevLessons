@@ -425,15 +425,25 @@ ____________$$   */
 .menu:hover{
 	background: rgba(0, 0, 0, .9);
 }
+.default{
+	position: absolute;
+	display: none;
+}
+.fixed{
+	position: fixed;
+	top: 0;
+}
 .menu__ul{
 	list-style: none;
 	margin: 0;
 	padding: 0 0 0 50px;
 	text-align: center;
+	background: url("images/favicon/apple-touch-icon.png") no-repeat left center;
+	
 }
 .menu__li{
 	display: inline-block;
-	line-height: 60px;
+	line-height: 70px;
 	margin: 0 20px;
 	text-shadow: 1px 1px 2px #000;
 	font-weight: 300;

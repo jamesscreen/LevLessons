@@ -1,8 +1,8 @@
-$(function(){
+/*$(function(){
 		$('#mmenu').slicknav({
       label: 'МЕНЮ'
     });
-	});
+	});*/
 
 // плавное появление меню при скролле
 $(document).ready(function(){ 
