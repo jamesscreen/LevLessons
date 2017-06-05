@@ -482,6 +482,13 @@ ____________$$   */
 		float: none;
 		margin: 0 auto 80px;
 	}
+	.box__img{
+		margin-top: -200px;
+	}
+	.box__img_footer{
+		width: 95%;
+		margin-top: 0;
+	}
 }
 
 /* Общие стили */
