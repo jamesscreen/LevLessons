@@ -548,7 +548,7 @@ ____________$$   */
 	}
 }
 @media screen and (max-width: 460px){
-	.sub__submit{
+	.sub__submit, .sub__zag{
 		font-size: 24px;
 	}
 	.header__disc{
@@ -562,6 +562,14 @@ ____________$$   */
 	}
 	.anons__zag{
 		text-align: center;
+	}
+}
+@media screen and (max-width: 380px){
+	.mid{
+		margin: 0;
+	}
+	.sell__button{
+		font-size: 24px;
 	}
 }
 
