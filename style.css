@@ -524,6 +524,19 @@ ____________$$   */
 	.slicknav_menu{
 		display: block;
 	}
+	.header__disc {
+		margin-top: 60px;
+	}
+}
+@media screen and (max-width: 660px){
+	.sub.right, .anons{
+		width: 90%;
+	}
+}
+@media screen and (max-width: 600px){
+	.box.left{
+		width: 90%;
+	}
 }
 
 /* Общие стили */
