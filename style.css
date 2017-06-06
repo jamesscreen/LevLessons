@@ -465,6 +465,7 @@ ____________$$   */
 	position: fixed;
 	width: 100%;
 	z-index: 999;
+	background: #4c4c4c url("images/favicon/apple-touch-icon.png") no-repeat left center;
 }
 
 /* Адаптиный дизайн */
@@ -517,6 +518,8 @@ ____________$$   */
 @media screen and (max-width: 780px){
 	.menu__ul{
 		display: none;
+		background: none;
+		font-size: 18px;
 	}
 	.slicknav_menu{
 		display: block;
