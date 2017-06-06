@@ -543,6 +543,17 @@ ____________$$   */
 	.mid{
 		margin: 0 10px;
 	}
+	.content__header{
+		font-size: 30px;
+	}
+}
+@media screen and (max-width: 460px){
+	.sub__submit{
+		font-size: 24px;
+	}
+	.header__disc{
+		font-size: 32px;
+	}
 }
 
 /* Общие стили */
