@@ -554,6 +554,15 @@ ____________$$   */
 	.header__disc{
 		font-size: 32px;
 	}
+	.anons__number{
+		display: none;
+	}
+	.anons__content{
+		width: 100%;
+	}
+	.anons__zag{
+		text-align: center;
+	}
 }
 
 /* Общие стили */
