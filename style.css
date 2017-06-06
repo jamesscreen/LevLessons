@@ -293,8 +293,6 @@ ____________$$   */
 .anons:hover .anons__ico{
 	background-size: 75%;
 }
-
-
 .anons:hover .anons__num{
 	-webkit-transform: rotate(360deg);
 	-ms-transform: rotate(360deg);
@@ -462,6 +460,12 @@ ____________$$   */
 	color: #fff;
 	text-shadow: 0px 0px 7px #fff;
 }
+.slicknav_menu{
+	display: none;
+	position: fixed;
+	width: 100%;
+	z-index: 999;
+}
 
 /* Адаптиный дизайн */
 @media screen and (max-width: 1024px){
@@ -508,6 +512,14 @@ ____________$$   */
 	.header__name{
 		text-align: center;
 		padding: 0;
+	}
+}
+@media screen and (max-width: 780px){
+	.menu__ul{
+		display: none;
+	}
+	.slicknav_menu{
+		display: block;
 	}
 }
 

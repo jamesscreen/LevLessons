@@ -30,7 +30,7 @@ $(document).ready(function(){
 $(window).load(function(){
 var lastId,
     topMenu = $(".menu__ul"),
-    topMenuHeight = topMenu.outerHeight()+70,
+    topMenuHeight = topMenu.outerHeight()+72,
     // All list items
     menuItems = topMenu.find("a"),
     // Anchors corresponding to menu items
