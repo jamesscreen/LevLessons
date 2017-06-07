@@ -462,7 +462,10 @@
 		<!-- Animate -->
 		<script src="wow/wow.min.js"></script>
 		<script>
-			new WOW().init();
+			wow = new WOW(
+				{offset: 100 /* Дистанция начала анимации */}
+			)
+			wow.init();
 		</script>
 	</body>
 </html>
